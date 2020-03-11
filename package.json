@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.0.1",
     "dotenv": "^8.2.0",
+    "load-cdn-component": "0.0.2",
     "postscribe": "^2.0.8",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-typing-effect": "^2.0.3"

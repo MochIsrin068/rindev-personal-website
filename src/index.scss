@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -32,7 +32,6 @@ main {
   margin-left: 5rem;
   padding: 1rem;
   text-align: center;
-
 }
 
 .link {
@@ -56,33 +55,32 @@ main {
   height: 100%;
 }
 
-.social-media{
-    width: 100%;
-    background-color: #000;
-    padding: 20px;
-    opacity: 40%;
-    margin-top: 20px
-}
-
-.social-media2{
+.social-media {
   width: 100%;
   background-color: #000;
   padding: 20px;
   opacity: 40%;
   margin-top: 20px;
-  display: flex ;
+}
+
+.social-media2 {
+  width: 100%;
+  background-color: #000;
+  padding: 20px;
+  opacity: 40%;
+  margin-top: 20px;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.developer{
+.developer {
   font-weight: bold;
   color: #707070;
   font-size: 20px;
   margin-top: -18px;
 }
-
 
 .nav-item {
   width: 100%;
@@ -120,7 +118,7 @@ main {
 }
 
 .main-line {
-  border: 2px dashed var(--bg-primary)
+  border: 2px dashed var(--bg-primary);
 }
 
 .nav-logo {
@@ -187,10 +185,9 @@ main {
     padding: 1rem;
     margin-bottom: 5rem !important;
   }
-
 }
 
-.avatar{
+.avatar {
   margin-top: 2%;
   height: 9em;
   width: 9em;
@@ -204,7 +201,6 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
@@ -238,7 +234,7 @@ main {
   margin-left: auto;
 }
 
-.center { 
+.center {
   // justify-content: center;
   display: flex;
 }
@@ -250,32 +246,37 @@ main {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .desc {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
   .container {
     width: 570px;
   }
 
-  .social-media{
+  .social-media {
     width: 70%;
     background-color: #000;
     padding: 20px;
     opacity: 40%;
-    margin-top: 20px
+    margin-top: 20px;
   }
 
-  .developer{
+  .developer {
     font-weight: bold;
     color: #707070;
     font-size: 31px;
     margin-top: -18px;
   }
 
-  .social-media2{
+  .social-media2 {
     width: 70%;
     background-color: #000;
     padding: 20px;
     opacity: 40%;
     margin-top: 20px;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -285,11 +286,10 @@ main {
     flex-direction: column;
   }
 
-  .center{
+  .center {
     justify-content: center;
     display: flex;
   }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -314,7 +314,6 @@ main {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
