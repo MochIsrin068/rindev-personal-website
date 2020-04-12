@@ -1,10 +1,10 @@
 import React from "react";
-import Photo from "../../assets/images/photo.png";
+import Photo from "../../assets/images/person.jpg";
 import {
   GithubOutlined,
   LinkedinOutlined,
   InstagramOutlined,
-  TwitterOutlined
+  MediumOutlined
 } from "@ant-design/icons";
 import ReactTypingEffect from "react-typing-effect";
 import "../../index.css";
@@ -34,7 +34,7 @@ const index = () => {
           fontWeight: "bold",
           color: "#707070",
           fontSize: 31,
-          marginTop: 8
+          marginTop: 8,
         }}
       >
         MOCH ISRIN
@@ -52,7 +52,7 @@ const index = () => {
             fontWeight: "bold",
             color: "#707070",
             textAlign: "center",
-            marginTop: 20
+            marginTop: 20,
           }}
         >
           A Fullstack Developer who passionate about modern mobile and web
@@ -66,60 +66,58 @@ const index = () => {
       <div className="center">
         <div className="social-media">
           <center>
-            <div className="social-media2">
-              <a
-                href="https://github.com/MochIsrin068"
-                target="_blank"
-                rel="noopener"
-              >
-                <GithubOutlined
-                  style={{
-                    margin: 10,
-                    fontSize: 30,
-                    fontWeight: "bold",
-                    color: "#fff"
-                  }}
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/muhammad-isrim-yambi-b-31171016a/"
-                target="_blank"
-                rel="noopener"
-              >
-                <LinkedinOutlined
-                  style={{
-                    margin: 10,
-                    fontSize: 30,
-                    fontWeight: "bold",
-                    color: "#fff"
-                  }}
-                />
-              </a>
-              <a
-                href="https://instagram.com/is.rin98"
-                target="_blank"
-                rel="noopener"
-              >
-                <InstagramOutlined
-                  style={{
-                    margin: 10,
-                    fontSize: 30,
-                    fontWeight: "bold",
-                    color: "#fff"
-                  }}
-                />
-              </a>
-              <a href="#" target="_blank" rel="noopener">
-                <TwitterOutlined
-                  style={{
-                    margin: 10,
-                    fontSize: 30,
-                    fontWeight: "bold",
-                    color: "#fff"
-                  }}
-                />
-              </a>
-            </div>
+            <a
+              href="https://github.com/MochIsrin068"
+              target="_blank"
+              rel="noopener"
+            >
+              <GithubOutlined
+                style={{
+                  margin: 10,
+                  fontSize: 30,
+                  fontWeight: "bold",
+                  color: "#ddd",
+                }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-isrim-yambi-b-31171016a/"
+              target="_blank"
+              rel="noopener"
+            >
+              <LinkedinOutlined
+                style={{
+                  margin: 10,
+                  fontSize: 30,
+                  fontWeight: "bold",
+                  color: "#ddd",
+                }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/is.rin98"
+              target="_blank"
+              rel="noopener"
+            >
+              <InstagramOutlined
+                style={{
+                  margin: 10,
+                  fontSize: 30,
+                  fontWeight: "bold",
+                  color: "#ddd",
+                }}
+              />
+            </a>
+            <a href="https://medium.com/@isrin068" target="_blank" rel="noopener">
+              <MediumOutlined
+                style={{
+                  margin: 10,
+                  fontSize: 30,
+                  fontWeight: "bold",
+                  color: "#ddd",
+                }}
+              />
+            </a>
           </center>
           <h3 style={{ fontWeight: "bold", color: "#707070" }}>
             isrin068@gmail.com
