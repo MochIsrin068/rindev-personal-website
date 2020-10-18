@@ -23,7 +23,7 @@ const index = () => {
             className="embedly-card"
             data-card-controls="0"
             data-card-theme="dark"
-            href="https://www.linkedin.com/in/muhammad-isrim-yambi-b-31171016a/"
+            href="https://www.linkedin.com/in/rindev/"
             target="_blank"
             rel="noopener"
             style={{ width: "20%" }}

@@ -4,7 +4,7 @@ import {
   GithubOutlined,
   LinkedinOutlined,
   InstagramOutlined,
-  MediumOutlined
+  MediumOutlined,
 } from "@ant-design/icons";
 import ReactTypingEffect from "react-typing-effect";
 import "../../index.css";
@@ -55,11 +55,11 @@ const index = () => {
             marginTop: 20,
           }}
         >
-          A Fullstack Developer who passionate about modern mobile and web
-          technology using Node JS, React JS, React Native, and Flutter. AnFd
-          would be a fast learner to doing new things and build good teamwork
-          either. Can become a project leader/manager and using tools like
-          Trello to manage project and task.
+          I'm a creative, full stack + frontend engineer. I merge technical
+          skills with design knowledge to create innovative products that drive
+          business. And I also a fast learner to doing new things and build good
+          teamwork either. Can become a project leader/manager and using tools
+          like Trello to manage project and task.
         </p>
       </div>
 
@@ -81,7 +81,7 @@ const index = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/muhammad-isrim-yambi-b-31171016a/"
+              href="https://www.linkedin.com/in/rindev/"
               target="_blank"
               rel="noopener"
             >
@@ -108,7 +108,11 @@ const index = () => {
                 }}
               />
             </a>
-            <a href="https://medium.com/@isrin068" target="_blank" rel="noopener">
+            <a
+              href="https://medium.com/@isrin068"
+              target="_blank"
+              rel="noopener"
+            >
               <MediumOutlined
                 style={{
                   margin: 10,
